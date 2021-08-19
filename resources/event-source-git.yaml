@@ -13,7 +13,7 @@ spec:
       repositories:
         - owner: ziv-codefresh
           names:
-            - argo-demo-v2-new
+            - argo-demo-v2-latest_git-source
              # Github will send events to following port and endpoint
       webhook:
         # endpoint to listen to events on
