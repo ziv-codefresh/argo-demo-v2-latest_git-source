@@ -1,0 +1,10 @@
+apiVersion: argoproj.io/v1alpha1
+kind: EventSource
+metadata:
+  name: calendar
+spec:
+  eventBusName: codefresh-eventbus
+  calendar:
+    example-with-interval:
+      # creates an event every 100 seconds
+      interval: 100s
