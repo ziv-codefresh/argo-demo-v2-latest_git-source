@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Sensor
 metadata:
-  name: github-no-filter
+  name: github-no-filter2
 spec:
   template:
     serviceAccountName: operate-workflow-sa
